@@ -8,7 +8,7 @@
         <license_model>none</license_model>
         <logo/>
         <menu/>
-        <name>VZURE Innovation Accelerator</name>
+        <name>InnovationCenter</name>
         <private>false</private>
         <restrict_table_access>false</restrict_table_access>
         <runtime_access_tracking>permissive</runtime_access_tracking>
@@ -23,9 +23,9 @@
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2017-12-06 16:53:31</sys_created_on>
         <sys_id>abd73dfedbfe0300de93aed15b9619f6</sys_id>
-        <sys_mod_count>8</sys_mod_count>
+        <sys_mod_count>9</sys_mod_count>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2017-12-07 20:58:00</sys_updated_on>
+        <sys_updated_on>2018-10-10 20:34:15</sys_updated_on>
         <template/>
         <trackable>true</trackable>
         <user_role display_value="itil" name="itil">282bf1fac6112285017366cb5f867469</user_role>
