@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Chargeback" max_length="40" name="x_vzure_via_app_chargeback" type="collection">
+        <element display="true" label="Model Name" mandatory="true" max_length="40" name="chargeback_model_name" type="string"/>
+        <element choice="1" label="Type" max_length="4000" name="type" type="choice">
+            <choice>
+                <element label="Per vCPU/Memory/Storage" value="Per vCPU/Memory/Storage"/>
+                <element label="Small/Medium/Large/X-Large" value="Small/Medium/Large/X-Large"/>
+            </choice>
+        </element>
+        <element attributes="omit_sys_original=true" label="Linux" mandatory="true" max_length="20" name="u_currency_1" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Daily" mandatory="true" max_length="20" name="u_currency_10" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Monthly" mandatory="true" max_length="20" name="u_currency_11" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Yearly" mandatory="true" max_length="20" name="u_currency_12" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Support" mandatory="true" max_length="20" name="u_currency_13" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Per vCPU Cost" mandatory="true" max_length="20" name="u_currency_14" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Memory : Cost Per GB" mandatory="true" max_length="20" name="u_currency_15" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Storage : Cost Per GB" mandatory="true" max_length="20" name="u_currency_16" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Windows" mandatory="true" max_length="20" name="u_currency_2" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Flash" mandatory="true" max_length="20" name="u_currency_3" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Small" mandatory="true" max_length="20" name="u_currency_4" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Medium" mandatory="true" max_length="20" name="u_currency_5" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Large" mandatory="true" max_length="20" name="u_currency_6" type="currency"/>
+        <element attributes="omit_sys_original=true" label="X-Large" mandatory="true" max_length="20" name="u_currency_7" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Non Flash" mandatory="true" max_length="20" name="u_currency_8" type="currency"/>
+        <element attributes="omit_sys_original=true" label="Backup" mandatory="true" max_length="20" name="u_currency_9" type="currency"/>
+    </element>
+</database>

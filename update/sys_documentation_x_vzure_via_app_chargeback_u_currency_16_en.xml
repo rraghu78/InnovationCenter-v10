@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_documentation element="u_currency_16" label="Storage : Cost Per GB" language="en" table="x_vzure_via_app_chargeback">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>u_currency_16</element>
+            <help/>
+            <hint/>
+            <label>Storage : Cost Per GB</label>
+            <language>en</language>
+            <name>x_vzure_via_app_chargeback</name>
+            <plural>Storage : Cost Per GBs</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-07 21:45:55</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>a064c853dbb60300de93aed15b961943</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_name>Storage : Cost Per GB</sys_name>
+            <sys_package display_value="VZURE Innovation Accelerator" source="x_vzure_via_app">abd73dfedbfe0300de93aed15b9619f6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="VZURE Innovation Accelerator">abd73dfedbfe0300de93aed15b9619f6</sys_scope>
+            <sys_update_name>sys_documentation_x_vzure_via_app_chargeback_u_currency_16_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-07 22:09:33</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

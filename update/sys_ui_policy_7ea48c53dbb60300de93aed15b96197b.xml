@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update sys_domain="global" table="sys_ui_policy">
+    <sys_ui_policy action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <conditions table="x_vzure_via_app_chargeback">typeLIKEvCPU^EQ<item endquery="false" field="type" goto="false" newquery="false" operator="LIKE" or="false" value="vCPU"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </conditions>
+        <description/>
+        <global>true</global>
+        <inherit>false</inherit>
+        <model_id/>
+        <model_table/>
+        <on_load>true</on_load>
+        <order>100</order>
+        <reverse_if_false>true</reverse_if_false>
+        <run_scripts>false</run_scripts>
+        <script_false><![CDATA[function onCondition() {
+
+}]]></script_false>
+        <script_true><![CDATA[function onCondition() {
+
+}]]></script_true>
+        <set_values/>
+        <short_description>Handle Chageback type vCPU</short_description>
+        <sys_class_name>sys_ui_policy</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2017-12-07 21:47:42</sys_created_on>
+        <sys_customer_update>false</sys_customer_update>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>7ea48c53dbb60300de93aed15b96197b</sys_id>
+        <sys_mod_count>3</sys_mod_count>
+        <sys_name>Handle Chageback type vCPU</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="VZURE Innovation Accelerator" source="x_vzure_via_app">abd73dfedbfe0300de93aed15b9619f6</sys_package>
+        <sys_policy/>
+        <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+        <sys_scope display_value="VZURE Innovation Accelerator">abd73dfedbfe0300de93aed15b9619f6</sys_scope>
+        <sys_update_name>sys_ui_policy_7ea48c53dbb60300de93aed15b96197b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2017-12-11 23:40:41</sys_updated_on>
+        <table>x_vzure_via_app_chargeback</table>
+        <ui_type>0</ui_type>
+        <view/>
+    </sys_ui_policy>
+</record_update>

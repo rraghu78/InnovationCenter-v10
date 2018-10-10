@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="type" table="x_vzure_via_app_chargeback" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Per vCPU/Memory/Storage</label>
+            <language>en</language>
+            <name>x_vzure_via_app_chargeback</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-07 21:58:32</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>ab2740d3dbb60300de93aed15b9619c3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-07 21:58:32</sys_updated_on>
+            <value>Per vCPU/Memory/Storage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Small/Medium/Large/X-Large</label>
+            <language>en</language>
+            <name>x_vzure_via_app_chargeback</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-07 22:01:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1b47cc93dbb60300de93aed15b9619e5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-07 22:01:11</sys_updated_on>
+            <value>Small/Medium/Large/X-Large</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>type</element>
+            <name>x_vzure_via_app_chargeback</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2017-12-07 21:58:32</sys_created_on>
+            <sys_customer_update>false</sys_customer_update>
+            <sys_id>5d470053dbb60300de93aed15b96191a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>type</sys_name>
+            <sys_package display_value="VZURE Innovation Accelerator" source="x_vzure_via_app">abd73dfedbfe0300de93aed15b9619f6</sys_package>
+            <sys_policy/>
+            <sys_replace_on_upgrade>false</sys_replace_on_upgrade>
+            <sys_scope display_value="VZURE Innovation Accelerator">abd73dfedbfe0300de93aed15b9619f6</sys_scope>
+            <sys_update_name>sys_choice_x_vzure_via_app_chargeback_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2017-12-07 21:58:32</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

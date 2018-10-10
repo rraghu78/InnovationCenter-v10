@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Integration Accounts" max_length="40" name="x_vzure_via_app_accounts" type="collection">
+        <element choice="1" label="Destination" mandatory="true" max_length="20" name="destination" type="choice">
+            <choice>
+                <element label="Cisco CloudCenter" value="Cisco CloudCenter"/>
+                <element label="Cisco UCS Director" value="Cisco UCS Director"/>
+                <element label="Infoblox IPAM" value="Infoblox IPAM"/>
+            </choice>
+        </element>
+        <element label="Name" mandatory="true" max_length="30" name="name" type="string"/>
+        <element display="true" label="Account UUID" mandatory="true" max_length="20" name="uuid" type="string"/>
+        <element label="VIA Access Key" mandatory="true" max_length="40" name="via_access_key" type="string"/>
+        <element label="VIA IP Address" mandatory="true" max_length="20" name="via_ip_address" type="ip_addr"/>
+    </element>
+</database>

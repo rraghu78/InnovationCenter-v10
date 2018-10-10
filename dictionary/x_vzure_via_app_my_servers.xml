@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element extends="task" label="My Servers" max_length="40" name="x_vzure_via_app_my_servers" type="collection"/>
+</database>
